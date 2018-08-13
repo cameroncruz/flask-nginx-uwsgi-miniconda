@@ -41,4 +41,10 @@ Finally copy application files:
 COPY server/server.py /app/main.py
 ```
 
+Building and running the container:
+```sh
+docker build -t my_image .
+docker run -p 80:80 -t my_image
+```
+
 Refer to the example in this repo for further clarification.
